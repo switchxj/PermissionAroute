@@ -24,7 +24,7 @@ public class PostHouse extends PRoteMate {
     Bundle mBundle;
 
     Object property;
-    int i;
+    int i=0;
 
     public Bundle getExtras() {
         return mBundle;
