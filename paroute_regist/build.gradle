@@ -1,0 +1,48 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+    compile 'com.android.tools.build:gradle:2.1.0'
+    //transform
+    compile 'com.android.tools.build:transform-api:1.5.0'
+
+    //开源框架，可对字节码进行编辑
+    compile 'javassist:javassist:3.12.1.GA'
+    //开眼框架 ，io操作
+    compile 'commons-io:commons-io:2.5'
+
+
+}
+
+repositories {
+
+    mavenCentral()
+}
+
+
+
+task publishJar(type:Jar)
+
+group 'com.qzzx.paroute.plugin'
+version '1.0.0'
+
+
+uploadArchives {
+
+    repositories {
+
+        mavenDeployer {
+
+
+
+            repository( url:uri('E:/repo') )
+
+        }
+
+    }
+
+
+}

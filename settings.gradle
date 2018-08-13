@@ -1,0 +1,1 @@
+include ':app', ':permission-annotation', ':paroute_compile', ':paroute_api', ':paroute_regist', ':test'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PermissionAroute.iml" filepath="$PROJECT_DIR$/PermissionAroute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paroute_api/paroute_api.iml" filepath="$PROJECT_DIR$/paroute_api/paroute_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paroute_compile/paroute_compile.iml" filepath="$PROJECT_DIR$/paroute_compile/paroute_compile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paroute_regist/paroute_regist.iml" filepath="$PROJECT_DIR$/paroute_regist/paroute_regist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission-annotation/permission-annotation.iml" filepath="$PROJECT_DIR$/permission-annotation/permission-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>
